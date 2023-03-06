@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#titill {
+  font-family: 'Lobster Two', cursive;
+  color: rgb(224, 224, 224);
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../myndir/20210703_135742.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  color: rgb(224, 224, 224);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: inherit;
+  background: transparent;
+  color: inherit;
+}
+
+/* Valmynd */
+/* #valmyndartakki {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+} */
+
+#valmynd {
+  /* position: fixed;
+  top: 30vh;
+  width: 100vw;
+
+  display: none;
+  flex-direction: column; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.valmyndaratridi {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.hluti {
+  padding-left: 10vw; /* Viewport width = miðar við allan skjáinn og miðar við prósentu af honum */
+  padding-right: 10vw; /* Viewport width = miðar við allan skjáinn og miðar við prósentu af honum */
+  padding-top: 30vh; /* Viewport height = miðar við allan skjáinn og miðar við prósentu af honum */
+}
+
+#umMig, #ferilskra {
+  display: none;
+}
+
+#heim h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+#heim p {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#heim #netfang {
+  font-size: 1.2rem;
+  font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#hofundur-mynd {
+  height: 15rem;
+  border-radius: 100%;
+  float: right;
+}
+
+#umMig p {
+  font-size: 1.2rem;
+  width: 80%;
+  padding-top: 0px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.icon-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+a:hover, .valmyndaratridi:hover, #valmyndartakki:hover {
+  opacity: 0.7;
+}
